@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+	<meta name="description" content="this is an example of a meta description">
+	<meta name=viewport content=width=device-width,initial-scale=1>
+	
+
+<title>academics</title>
+<link rel="stylesheet" href="styleacademics.css">
+</head>
+<body>
+<nav class="navigation">
+                <ul>
+			<li><a href="index.html" target="_blank">HOME</a></li>
+			<li><a href="about.html" target="_blank">ABOUT</a></li>
+			<li><a href="academics.html" target="_blank">ACADEMICS</a></li>
+			<li><a href="activities.html" target="_blank">ACTIVITIES</a></li>
+			<li><a href="facilities.html" target="_blank">FACILITIES</a></li>
+			<li><a href="contact.html" target="_blank">CONTACT</a></li>
+		</ul>
+      </nav>
+<section class="section-1">
+<div class="a1">
+	<p>RULES AND REGULATIONS:</p>
+</div>
+<div class="rules">
+<ul>
+<li> The diary should be brought to school daily</li>
+<li> The school uniform must be worn on all working days and during all the school functions</li>
+<li> Jewellery must not be worn when attending school, School management is not responsible for any valuable article lost</li>
+<li> Children suffering from infectious diseases will not be allowed to attend the class</li>
+<li> Only English should be spoken with in the school premises</li>
+<li> A minimum of 40% marks in the examination is necessary to ensure promotion.</li>
+<li> Pupils who do not arrive in time for assembly will be marked late. School hours 9.15 am to 3.40 p.m .Lunch 12.30 to p.m. to 1.15 p.m.
+ Assembly begins at 9.15 a.m. Office Hours:8.30 a.m. to 5.00 p .m</li>
+<li> Fees once paid will not be refund under any circumstances</li>
+<li> School authorities are the final judge and their decision on all the school matters will be final and binding on all the students</li>
+<li> The parents are requested to read the rules and regulation carefully</li>
+</ul>
+</div>
+
+<div class="groups">
+	<select name="GROUPS AVAILABLE" >
+       <option value="grp1">GROUPS AVAILABLE</option>
+       <option value="grp1">Bio-maths</option>
+       <option value="grp2">Computer science</option>
+       <option value="grp3">Arts</option>
+       <option value="grp4">History</option>
+       <option value="grp5">Commerce</option>
+        </select>
+</div>
+
+</section>
+
+<section class="section-2">
+
+<h1 style="color:#FFF; padding-left:15px; padding-top:40px;">AIM OF THE SCHOOL:</h1>
+
+<p style="color:#FFF; padding-left:40px; padding-right:100px;">To make students academically competent by evolving creative teaching methods that will kindle
+their curiosity and inspire them become life long learner.</p><br>
+
+<h2 style="color:#FFF; padding-left:15px;">Contact info:</h2><br>
+
+
+<p style="color:#FFF; padding-left:40px;"><img style="width:20px; height:20px;" src="phone.png" alt="phone">123456789</P><br>
+<p style="color:#FFF; padding-left:40px;"><img style="width:20px; height:20px;" src="mail.png" alt="mail">mailtopriyadharshini.31@gmail.com</P><br>
+<p style="color:#FFF; padding-left:40px;"><img style="width:20px; height:20px;" src="address.png" alt="address">AYIRP Matric Hr.Sec.School,ABCD street,</P>
+<p style="color:#FFF; padding-left:50px;">Efghijkl,Mnop(po),Qrst(dt)</p>
+<p style="color:#FFF; padding-left:50px;">PIN: 123456</P><br>
+
+
+
+
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+         background-color:skyblue;
+}
+
+.login-form{
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	color: #fff;
+} 
+
+.login-form h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+        padding-top:45px;
+}
+
+.login-form p{
+	font-size: 20px;
+	margin: 35px 0;
+}
+        
+
+
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 7px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-form button{
+	font-size: 18px;
+	font-weight: bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	 border: 0;
+}
+
+
+button.one {
+background-color:hotpink;
+color:black;
+}
+
+button.one:hover{
+ background-color:black;
+color:white;
+}
+
+a.two {
+text-decoration:none; 
+color: #ff0da6;
+}
+
+a.two:hover{ 
+color:orange;
+}
+
+.groups ul{
+	list-style: none;
+}
+.groups{
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	background-color:pink;
+	
+}
+.groups li: hover{
+	background: #ff553b;
+
+}
+.groups > ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	background: #313131;
+	color: #fff;
+	width: 1000px;
+}
+
+.groups >ul >li{
+	position: relative;
+	cursor: pointer;
+	float: left;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+}
+.dropdown{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding: 0;
+}
+.dropdown li{
+	background: #313131;
+	display: none;
+}
+.dropdown li: hover{
+	background: #3c3;
+}
+.groups li:hover > .dropdown{
+	perspective: 1000px;
+}
+.groups li:hover > .dropdown li{
+	transform-origin: top center;
+	opacity: 0;
+	display: block;
+}
+.groups li:hover > .dropdown li:nth-child(1){
+	animation: animate 300ms ease-in-out forwards;
+	opacity: 0;
+	display: block;
+}
